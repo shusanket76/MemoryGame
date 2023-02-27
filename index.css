@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(88, 3, 3);
+}
+
+.maincontainer {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 14rem 14rem 14rem 14rem;
+  left: 15%;
+  top: 10%;
+  gap: 0.5rem;
+}
+.div-element {
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  height: 18rem;
+  width: 13rem;
+  border-radius: 10% 12%;
+  background-color: black;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.img {
+  height: 18rem;
+  padding-left: 0.1rem;
+  padding-top: 0.1rem;
+  width: 13rem;
+}
+
+
+
+
+ 
+
+.prop {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+
+ 
+}  
+
+
+
+header > h1 {
+  color: white;
+  margin-left: 35rem;
+  margin-bottom: 2rem;
+}
+
+
+.noClick {
+   pointer-events: none;
+}
