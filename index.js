@@ -5,8 +5,6 @@ const imagesArray = ["./A.png", "./J.png", "./Q.png", "./K.png"];
 
 var numbersArray = [0, 0, 1, 1, 2, 2, 3, 3];
 
-var correctanswer = 0;
-// to keep record of the cards that has been matched
 // ===========================================================================================
 
 const generateRandomNumber = () => {
