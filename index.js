@@ -1,5 +1,5 @@
 const images = document.querySelectorAll(".img");
-const buttons = document.querySelectorAll(".btn");
+const divelements = document.querySelectorAll(".div-element");
 
 const imagesArray = ["./A.png", "./J.png", "./Q.png", "./K.png"];
 
@@ -56,7 +56,7 @@ const checkAnswer = (divelement, index) => {
 };
 // ==================================================================================================
 
-const divelements = document.querySelectorAll(".div-element");
+
 divelements.forEach((divelement, index) => {
   divelement.addEventListener("click", () => {
     divelement.children[0].classList.remove("prop");
